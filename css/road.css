@@ -1,0 +1,130 @@
+.road-block {
+    background-color: white;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+}
+
+.road-row {
+    width: 100%;
+}
+
+.road-start {
+    height: 180px;
+    width: 80px;
+}
+
+.road-start-fill {
+    height: 60px;
+    width: 10px;
+    background-color: #913cfa;
+    border-radius: 5px;
+}
+
+.road-line {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 24%;
+}
+
+.road-line-fill {
+    height: 10px;
+    width: 100%;
+    background-color: #913cfa;
+}
+
+.road-point {
+    height: 180px;
+    width: 20px;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.road-point-fill {
+    order: 1;
+    position: relative;
+    z-index: 999;
+    background-color: #913cfa;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.road-point-fill:hover {
+    background-color: #AC6DFD;
+    cursor: pointer;
+}
+
+.road-point-fill:hover ~ .road-work-year{
+    height: 30%;
+}
+
+.road-point-fill:hover ~ .road-company-name{
+    padding-top: 20px;
+    height: 30%;
+}
+
+.road-turn {
+    height: 180px;
+    width: 12%;
+}
+
+.road-turn-fill {
+    height: 95px;
+    width: 10px;
+}
+
+.road-turn-left-bottom-fill {
+    background-color: #913cfa;
+    border-top-right-radius: 10px;
+}
+
+.road-turn-top-left-fill {
+    border-bottom-right-radius: 10px;
+    background-color: #913cfa;
+}
+
+.road-turn-right-bottom-fill {
+    border-top-left-radius: 10px;
+    background-color: #913cfa;
+}
+
+.road-turn-top-right-fill {
+    border-bottom-left-radius: 10px;
+    background-color: #913cfa;
+}
+
+.road-end {
+    height: 180px;
+    width: 12%;
+}
+
+.road-end-fill {
+    height: 60px;
+    width: 10px;
+    background-color: #913cfa;
+    border-radius: 5px;
+}
+
+.road-half-line {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 12%;
+}
+
+.road-work-year {
+    order: 0;
+    height: 25%;
+}
+
+.road-company-name {
+    order: 2;
+    height: 25%;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
